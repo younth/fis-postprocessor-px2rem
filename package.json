@@ -1,7 +1,7 @@
 {
   "name": "fis-postprocessor-px2rem",
   "version": "1.0.0",
-  "description": "fis3 plugins for px2rem when we use rem for mobile flexbox",
+  "description": "fis3 plugins when we want to change px to rem for mobile flexbox",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +16,9 @@
     "fis3",
     "fis"
   ],
+  "dependencies": {
+    "px2rem": "~0.4.0"
+  },
   "author": "younth",
   "license": "ISC",
   "bugs": {

@@ -11,11 +11,27 @@ The raw stylesheet only contains @2x style, and if you
 
 **Attention: Dealing with SASS or LESS, only `/*...*/` comment can be used, in order to have the comments persisted**
 
-### Install
-1. install fis-postprocessor-autoprefixer  
-    `npm install -g fis-postprocessor-autoprefixer`
-2. modify fis-conf.js  
-    `fis.config.set('modules.postprocessor.css', 'autoprefixer');`
+## Install
+* install fis-postprocessor-autoprefixer  
+    `npm install -g fis-postprocessor-px2rem`
+* modify fis-conf.js  
+    ```
+    fis.match('*css', {
+        postprocessor: fis.plugin('px2rem')
+    });
+    ```
+
+### Options
+
+    ```
+    {
+        baseDpr: 2,             // base device pixel ratio (default: 2)
+        threeVersion: false,    // whether to generate @1x, @2x and @3x version (default: false)
+        remVersion: true,       // whether to generate rem version (default: true)
+        remUnit: 75,            // rem unit value (default: 75)
+        remPrecision: 6         // rem precision (default: 6)
+    }
+    ```
 
 ### Example
 
