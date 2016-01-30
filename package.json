@@ -1,0 +1,25 @@
+{
+  "name": "fis-postprocessor-px2rem",
+  "version": "1.0.0",
+  "description": "fis3 plugins for px2rem when we use rem for mobile flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/younth/fis-postprocessor-px2rem.git"
+  },
+  "keywords": [
+    "px2rem",
+    "rem",
+    "fis3",
+    "fis"
+  ],
+  "author": "younth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/younth/fis-postprocessor-px2rem/issues"
+  },
+  "homepage": "https://github.com/younth/fis-postprocessor-px2rem#readme"
+}
