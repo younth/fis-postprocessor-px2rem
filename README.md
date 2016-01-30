@@ -4,8 +4,6 @@ a postprocessor for fis to change 'px' to 'rem' in stylesheet.
 
 ## Usage
 
-The raw stylesheet only contains @2x style, and if you
-
 * don't intend to transform the original value, eg: 1px border, add `/*no*/` after the declaration
 * intend to use px by force，eg: font-size, add `/*px*/` after the declaration
 
