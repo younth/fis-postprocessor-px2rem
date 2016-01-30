@@ -1,6 +1,6 @@
 # fis-postprocessor-px2rem
 
-According to one stylesheet, generate rem version and @1x, @2x and @3x stylesheet.
+a postprocessor for fis to change 'px' to 'rem' in stylesheet [postcss/autoprefixer](https://github.com/younth/fis-postprocessor-px2rem)
 
 ## Usage
 
@@ -68,39 +68,6 @@ Rem version: `test.css`
 [data-dpr="3"] .selector {
     height: 96px;
     font-size: 42px;
-}
-```
-
-@1x version: `test1x.css`
-
-```
-.selector {
-    width: 75px;
-    height: 32px;
-    font-size: 14px;
-    border: 1px solid #ddd;
-}
-```
-
-@2x version: `test2x.css`
-
-```
-.selector {
-    width: 150px;
-    height: 64px;
-    font-size: 28px;
-    border: 1px solid #ddd;
-}
-```
-
-@3x version: `test3x.css`
-
-```
-.selector {
-    width: 225px;
-    height: 96px;
-    font-size: 42px;
-    border: 1px solid #ddd;
 }
 ```
 

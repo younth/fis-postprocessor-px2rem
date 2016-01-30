@@ -1,7 +1,7 @@
 {
   "name": "fis-postprocessor-px2rem",
   "version": "1.0.0",
-  "description": "fis3 plugins when we want to change px to rem for mobile flexbox",
+  "description": "a postprocessor for fis to change 'px' to 'rem' in stylesheet",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
