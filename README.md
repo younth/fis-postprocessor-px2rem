@@ -1,6 +1,6 @@
 # fis-postprocessor-px2rem
 
-a postprocessor for fis to change 'px' to 'rem' in stylesheet [postcss/autoprefixer](https://github.com/younth/fis-postprocessor-px2rem)
+a postprocessor for fis to change 'px' to 'rem' in stylesheet.
 
 ## Usage
 
@@ -23,15 +23,15 @@ The raw stylesheet only contains @2x style, and if you
 
 ### Options
 
-    ```
+```
     {
         baseDpr: 2,             // base device pixel ratio (default: 2)
         threeVersion: false,    // whether to generate @1x, @2x and @3x version (default: false)
         remVersion: true,       // whether to generate rem version (default: true)
         remUnit: 75,            // rem unit value (default: 75)
         remPrecision: 6         // rem precision (default: 6)
-    }
-    ```
+        }
+```
 
 ### Example
 
