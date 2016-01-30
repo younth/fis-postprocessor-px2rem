@@ -17,7 +17,8 @@
     "fis"
   ],
   "dependencies": {
-    "px2rem": "~0.4.0"
+    "css": "~2.2.0",
+    "extend": "~2.0.0"
   },
   "author": "younth",
   "license": "ISC",

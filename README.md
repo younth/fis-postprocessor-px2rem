@@ -28,7 +28,7 @@ a postprocessor for fis to change 'px' to 'rem' in stylesheet.
         remVersion: true,       // whether to generate rem version (default: true)
         remUnit: 75,            // rem unit value (default: 75)
         remPrecision: 6         // rem precision (default: 6)
-        }
+    }
 ```
 
 ### Example
