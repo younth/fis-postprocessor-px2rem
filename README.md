@@ -10,7 +10,7 @@ a postprocessor for fis to change 'px' to 'rem' in stylesheet.
 **Attention: Dealing with SASS or LESS, only `/*...*/` comment can be used, in order to have the comments persisted**
 
 ## Install
-* install fis-postprocessor-autoprefixer  
+* install fis-postprocessor-px2rem  
     `npm install -g fis-postprocessor-px2rem`
 * modify fis-conf.js  
     ```
@@ -24,7 +24,6 @@ a postprocessor for fis to change 'px' to 'rem' in stylesheet.
 ```
     {
         baseDpr: 2,             // base device pixel ratio (default: 2)
-        threeVersion: false,    // whether to generate @1x, @2x and @3x version (default: false)
         remVersion: true,       // whether to generate rem version (default: true)
         remUnit: 75,            // rem unit value (default: 75)
         remPrecision: 6         // rem precision (default: 6)
