@@ -4,8 +4,7 @@ fis3/fis `px` 自动转为 `rem` 插件，提高源码可维护性
 
 ## 安装
 
-* npm i fis-postprocessor-px2rem  
-    `npm install -g fis-postprocessor-px2rem`
+* npm i -g fis-postprocessor-px2rem  
 * 修改 fis-conf.js  
     ```
     fis.match('*less', {
