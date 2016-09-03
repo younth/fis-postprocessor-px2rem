@@ -1,6 +1,6 @@
 {
   "name": "fis-postprocessor-px2rem",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a postprocessor for fis to change 'px' to 'rem' in stylesheet",
   "main": "index.js",
   "scripts": {
